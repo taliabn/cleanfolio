@@ -11,8 +11,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Talia Ben-Naim',
   role: 'Aspiring Software Engineer',
-  description:
-    "Hello! I am a third year Northwestern University student pursuing a combined BS/MS degree in Computer Science and Computer Engineering respectively with an anticipated graduation date in June 2025. My passion lies in software development and possess a wide range of skills spanning from assembly to databases to python to React. I am constantly excited about learning new technologies, and my pursuit of computer science is fueled by a strong desire to make a meaningful impact. Feel free to connect with me through the provided contact details or explore my skills and projects on this website.",
+  description: "Hello! I am a junior at Northwestern University pursuing a combined BS/MS degree in Computer Science and Computer Engineering respectively with an anticipated graduation date of June 2025. My passion lies in software development, and I have a wide range of skills spanning from assembly to databases to python to React. I am excited about learning new technologies, and my pursuit of computer science is fueled by a strong desire to make a meaningful impact. I invite you to explore my skills and projects on this website.",
   social: {
     linkedin: 'https://www.linkedin.com/in/talia-ben-naim/',
     github: 'https://github.com/taliabn/',

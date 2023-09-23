@@ -15,7 +15,10 @@ const About = () => {
       )}
 
       {role && <h2 className='about__role'>An {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      <p className='about__desc'>{description && description} Feel free to  
+        <a className='link' href='#contact'> connect </a>
+        with me.
+      </p>
 
       <div className='about__contact center'>
       {resume && (
