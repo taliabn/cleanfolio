@@ -8,6 +8,19 @@ const ProjectContainer = ({ project }) => (
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>
+    {project.collaborator && (
+      <p className='project__description'>Developed in collaboration with
+        <a
+          href={project.collaboratorSite}
+          aria-label='source code'
+          className='link link--icon'
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {project.collaborator}
+        </a>
+      </p>
+      )}
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -23,6 +36,8 @@ const ProjectContainer = ({ project }) => (
         href={project.sourceCode}
         aria-label='source code'
         className='link link--icon'
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <GitHubIcon />
       </a>
@@ -33,11 +48,13 @@ const ProjectContainer = ({ project }) => (
         href={project.livePreview}
         aria-label='live preview'
         className='link link--icon'
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <LaunchIcon />
       </a>
     )}
-  </div>
+    </div>
 )
 
 export default ProjectContainer

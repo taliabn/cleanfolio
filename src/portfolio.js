@@ -1,71 +1,86 @@
+import pongDemo from './assets/pong-demo.gif'
+import chessDemo from './assets/chess-demo.gif'
+import myResume from './assets/resume.pdf'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://taliabn.github.io/cleanfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Talia Ben-Naim',
+  role: 'Aspiring Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "Hello! I am a third year Northwestern University student pursuing a combined BS/MS degree in Computer Science and Computer Engineering respectively with an anticipated graduation date in June 2025. My passion lies in software development and possess a wide range of skills spanning from assembly to databases to python to React. I am constantly excited about learning new technologies, and my pursuit of computer science is fueled by a strong desire to make a meaningful impact. Feel free to connect with me through the provided contact details or explore my skills and projects on this website.",
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/talia-ben-naim/',
+    github: 'https://github.com/taliabn/',
   },
+  resume: myResume,
 }
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Numble',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A wordle-inspired daily arithmetic puzzle game.',
+    stack: ['Python', 'Django', 'Javascript', 'HTML', 'Bootstrap'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: 'https://numble.fly.dev/',
   },
   {
-    name: 'Project 2',
+    name: 'Chess',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A chess engine inspired by lichess.org and written in C++.',
+	collaborator: 'Justin Aronson',
+	collaboratorSite: 'https://github.com/JustinAronson',
+    stack: ['C++'],
+    sourceCode: 'https://github.com/taliabn/chess',
+    livePreview: chessDemo,
   },
   {
-    name: 'Project 3',
+    name: 'Pong',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An implementation of the Atari classic Pong that is written from scratch in ARM assembly.',
+    stack: ['ARM Assembly'],
+    sourceCode: 'https://github.com/taliabn/pong',
+	livePreview: pongDemo,
+  },
+  {
+    name: 'Evolutionary Robotics',
+    description:
+      'Conducting evolutionary robotics simulations to explore the impact of various neural network controller architectures on robots evolved for locomotion.',
+    stack: ['Python', 'Data Analysis'],
+    sourceCode: 'https://github.com/taliabn/pong-assembly',
+	livePreview: 'https://youtu.be/uux9ZBXE7Lc',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'Python',
+  'C',
+  'C++',
+  'Verilog',
   'HTML',
-  'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'AWS',
+  'Docker',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Bash',
+  'SQL',
+  'MATLAB',
+  'R'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'taliaben-naim2025@u.northwestern.edu',
 }
 
 export { header, about, projects, skills, contact }
