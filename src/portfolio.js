@@ -28,7 +28,7 @@ const projects = [
     description:
       'A wordle-inspired daily arithmetic puzzle game.',
     stack: ['Python', 'Django', 'Javascript', 'HTML', 'Bootstrap'],
-    sourceCode: 'https://github.com/numble',
+    sourceCode: 'https://github.com/taliabn/numble',
     livePreview: 'https://numble.fly.dev/',
   },
   {
