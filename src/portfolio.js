@@ -28,7 +28,7 @@ const projects = [
     description:
       'A wordle-inspired daily arithmetic puzzle game.',
     stack: ['Python', 'Django', 'Javascript', 'HTML', 'Bootstrap'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/numble',
     livePreview: 'https://numble.fly.dev/',
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     description:
       'Conducting evolutionary robotics simulations to explore the impact of various neural network controller architectures on robots evolved for locomotion.',
     stack: ['Python', 'Data Analysis'],
-    sourceCode: 'https://github.com/taliabn/pong-assembly',
+    sourceCode: 'https://github.com/taliabn/my-ludobots',
 	livePreview: 'https://youtu.be/uux9ZBXE7Lc',
   },
 ]
