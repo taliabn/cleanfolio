@@ -5,8 +5,16 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <h3>{project.name}</h3>
-
+    <a  
+		  href={project.livePreview}
+      aria-label='project title live preview'
+      className='link link--title' 
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {project.name}
+    </a>
+    {/* <h3>Chess</h3> */}
     <p className='project__description'>{project.description}</p>
     {project.collaborator && (
       <p className='project__description'>Developed in collaboration with
