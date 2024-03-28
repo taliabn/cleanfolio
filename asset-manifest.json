@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d53e1fac.chunk.css",
-    "main.js": "/portfolio/static/js/main.91cdc34c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.91cdc34c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.17155938.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.17155938.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.99fa3c69.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.99fa3c69.js.map",
     "static/js/2.f5288c40.chunk.js": "/portfolio/static/js/2.f5288c40.chunk.js",
@@ -12,12 +12,12 @@
     "static/js/2.f5288c40.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f5288c40.chunk.js.LICENSE.txt",
     "static/media/chess-demo.2158afef.gif": "/portfolio/static/media/chess-demo.2158afef.gif",
     "static/media/pong-demo.5acc7c83.gif": "/portfolio/static/media/pong-demo.5acc7c83.gif",
-    "static/media/resume.eded39bc.pdf": "/portfolio/static/media/resume.eded39bc.pdf"
+    "static/media/resume.98c7d67a.pdf": "/portfolio/static/media/resume.98c7d67a.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.99fa3c69.js",
     "static/js/2.f5288c40.chunk.js",
     "static/css/main.d53e1fac.chunk.css",
-    "static/js/main.91cdc34c.chunk.js"
+    "static/js/main.17155938.chunk.js"
   ]
 }
