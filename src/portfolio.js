@@ -11,7 +11,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Talia Ben-Naim',
   role: 'Aspiring Software Engineer',
-  description: "Hello! I am a junior at Northwestern University pursuing a combined BS/MS degree in Computer Science and Computer Engineering respectively with an anticipated graduation date of June 2025. My passion lies in software development, and I have a wide range of skills spanning from assembly to databases to python to React. I am excited about learning new technologies, and my pursuit of computer science is fueled by a strong desire to make a meaningful impact. I invite you to explore my skills and projects on this website.",
+  description: "Hello! I am a senior at Northwestern University pursuing a combined BS/MS degree in Computer Science and Computer Engineering respectively with an anticipated graduation date of June 2025. My passions lie in software, hardware, and the intersections between the two. I have a wide range of skills spanning from hardware description languages to assembly to python to React. I am excited about learning new technologies, and my pursuit of computer science and engineering is fueled by a strong desire to make a meaningful impact. I invite you to explore my skills and projects on this website.",
   social: {
     linkedin: 'https://www.linkedin.com/in/talia-ben-naim/',
     github: 'https://github.com/taliabn/',
@@ -56,6 +56,16 @@ const projects = [
     sourceCode: 'https://github.com/taliabn/my-ludobots',
 	livePreview: 'https://youtu.be/uux9ZBXE7Lc',
   },
+  {
+    name: 'FPGA Tank Game',
+    description:
+      'A two-player shooter game implemented on an FPGA',
+	collaborator: 'Jackson Bremen',
+	collaboratorSite: 'https://github.com/readjfb',
+    stack: ['VHDL'],
+    sourceCode: 'https://github.com/taliabn/FPGA-tank-game',
+    livePreview: 'https://youtube.com/shorts/_J6evomLnn8?feature=share',
+  },
 ]
 
 const skills = [
@@ -65,13 +75,14 @@ const skills = [
   'C',
   'C++',
   'Verilog',
+  'VHDL',
+  'Git',
   'HTML',
-  'JavaScript',
   'React',
   'AWS',
   'Docker',
-  'Git',
   'Bash',
+  'Assembly',
   'SQL',
   'MATLAB',
   'R'
